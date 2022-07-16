@@ -5,6 +5,7 @@ import (
 	"ex.sov/closing-channels"
 	"ex.sov/closures"
 	"ex.sov/constants"
+	custom_sorting "ex.sov/custom-sorting"
 	"ex.sov/embedding"
 	"ex.sov/exerrors"
 	"ex.sov/exfunctions"
@@ -25,6 +26,7 @@ import (
 	"ex.sov/rangeOverChannels"
 	"ex.sov/recursion"
 	"ex.sov/slisess"
+	"ex.sov/sorting"
 	"ex.sov/switchsov"
 	"ex.sov/values"
 	"ex.sov/variables"
@@ -83,5 +85,7 @@ func main() {
 	//ex_atomic.Main()
 	exmutex.Main()
 	//stateful.Main()
-
+	sorting.Main()
+	custom_sorting.Main()
+	
 }

@@ -9,6 +9,7 @@ require (
 	ex.sov/closing-channels v0.0.0-00010101000000-000000000000
 	ex.sov/closures v0.0.0-00010101000000-000000000000
 	ex.sov/constants v0.0.0-00010101000000-000000000000
+	ex.sov/custom-sorting v0.0.0-00010101000000-000000000000
 	ex.sov/embedding v0.0.0-00010101000000-000000000000
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
 	ex.sov/exfunctions v0.0.0-00010101000000-000000000000
@@ -29,7 +30,7 @@ require (
 	ex.sov/rangeOverChannels v0.0.0-00010101000000-000000000000
 	ex.sov/recursion v0.0.0-00010101000000-000000000000
 	ex.sov/slisess v0.0.0-00010101000000-000000000000
-	ex.sov/stateful v0.0.0-00010101000000-000000000000
+	ex.sov/sorting v0.0.0-00010101000000-000000000000
 	ex.sov/switchsov v0.0.0-00010101000000-000000000000
 	ex.sov/values v0.0.0-00010101000000-000000000000
 	ex.sov/variables v0.0.0-00010101000000-000000000000
@@ -123,3 +124,7 @@ replace ex.sov/ex-atomic => ../ex-atomic
 replace ex.sov/exmutex => ../exmutex
 
 replace ex.sov/stateful => ../stateful
+
+replace ex.sov/sorting => ../sorting
+
+replace ex.sov/custom-sorting => ../custom-sorting
