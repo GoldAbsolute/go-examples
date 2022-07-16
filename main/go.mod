@@ -10,11 +10,11 @@ require (
 	ex.sov/closures v0.0.0-00010101000000-000000000000
 	ex.sov/constants v0.0.0-00010101000000-000000000000
 	ex.sov/embedding v0.0.0-00010101000000-000000000000
-	ex.sov/ex-atomic v0.0.0-00010101000000-000000000000
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
 	ex.sov/exfunctions v0.0.0-00010101000000-000000000000
 	ex.sov/exgenerics v0.0.0-00010101000000-000000000000
 	ex.sov/exmethods v0.0.0-00010101000000-000000000000
+	ex.sov/exmutex v0.0.0-00010101000000-000000000000
 	ex.sov/expointers v0.0.0-00010101000000-000000000000
 	ex.sov/exrange v0.0.0-00010101000000-000000000000
 	ex.sov/exrunes v0.0.0-00010101000000-000000000000
@@ -29,6 +29,7 @@ require (
 	ex.sov/rangeOverChannels v0.0.0-00010101000000-000000000000
 	ex.sov/recursion v0.0.0-00010101000000-000000000000
 	ex.sov/slisess v0.0.0-00010101000000-000000000000
+	ex.sov/stateful v0.0.0-00010101000000-000000000000
 	ex.sov/switchsov v0.0.0-00010101000000-000000000000
 	ex.sov/values v0.0.0-00010101000000-000000000000
 	ex.sov/variables v0.0.0-00010101000000-000000000000
@@ -118,3 +119,7 @@ replace ex.sov/wait-groups => ../wait-groups
 replace ex.sov/rate => ../exrate
 
 replace ex.sov/ex-atomic => ../ex-atomic
+
+replace ex.sov/exmutex => ../exmutex
+
+replace ex.sov/stateful => ../stateful

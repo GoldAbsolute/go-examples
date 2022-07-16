@@ -10,6 +10,7 @@ import (
 	"ex.sov/exfunctions"
 	"ex.sov/exgenerics"
 	"ex.sov/exmethods"
+	"ex.sov/exmutex"
 	"ex.sov/expointers"
 	"ex.sov/exrange"
 	"ex.sov/exrunes"
@@ -80,5 +81,7 @@ func main() {
 	//wait_groups.Main()
 	//exrate.Main()
 	//ex_atomic.Main()
+	exmutex.Main()
+	//stateful.Main()
 
 }
