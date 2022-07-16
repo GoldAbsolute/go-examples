@@ -11,6 +11,7 @@ require (
 	ex.sov/constants v0.0.0-00010101000000-000000000000
 	ex.sov/custom-sorting v0.0.0-00010101000000-000000000000
 	ex.sov/embedding v0.0.0-00010101000000-000000000000
+	ex.sov/exdefer v0.0.0-00010101000000-000000000000
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
 	ex.sov/exfunctions v0.0.0-00010101000000-000000000000
 	ex.sov/exgenerics v0.0.0-00010101000000-000000000000
@@ -128,3 +129,7 @@ replace ex.sov/stateful => ../stateful
 replace ex.sov/sorting => ../sorting
 
 replace ex.sov/custom-sorting => ../custom-sorting
+
+replace ex.sov/expanic => ../expanic
+
+replace ex.sov/exdefer => ../exdefer

@@ -7,6 +7,7 @@ import (
 	"ex.sov/constants"
 	custom_sorting "ex.sov/custom-sorting"
 	"ex.sov/embedding"
+	"ex.sov/exdefer"
 	"ex.sov/exerrors"
 	"ex.sov/exfunctions"
 	"ex.sov/exgenerics"
@@ -87,5 +88,8 @@ func main() {
 	//stateful.Main()
 	sorting.Main()
 	custom_sorting.Main()
-	
+	// panic
+	//expanic.Main()
+	exdefer.Main()
+
 }
