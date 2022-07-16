@@ -15,6 +15,7 @@ import (
 	"ex.sov/exmutex"
 	"ex.sov/expointers"
 	"ex.sov/exrange"
+	"ex.sov/exrecover"
 	"ex.sov/exrunes"
 	"ex.sov/exstructs"
 	"ex.sov/forfor"
@@ -28,6 +29,7 @@ import (
 	"ex.sov/recursion"
 	"ex.sov/slisess"
 	"ex.sov/sorting"
+	string_library "ex.sov/string-library"
 	"ex.sov/switchsov"
 	"ex.sov/values"
 	"ex.sov/variables"
@@ -90,6 +92,8 @@ func main() {
 	custom_sorting.Main()
 	// panic
 	//expanic.Main()
+	// defer и запись/чтение/закрытие файла
 	exdefer.Main()
-
+	exrecover.Main()
+	string_library.Main()
 }

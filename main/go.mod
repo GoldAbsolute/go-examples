@@ -19,6 +19,7 @@ require (
 	ex.sov/exmutex v0.0.0-00010101000000-000000000000
 	ex.sov/expointers v0.0.0-00010101000000-000000000000
 	ex.sov/exrange v0.0.0-00010101000000-000000000000
+	ex.sov/exrecover v0.0.0-00010101000000-000000000000
 	ex.sov/exrunes v0.0.0-00010101000000-000000000000
 	ex.sov/exstructs v0.0.0-00010101000000-000000000000
 	ex.sov/forfor v0.0.0-00010101000000-000000000000
@@ -32,6 +33,7 @@ require (
 	ex.sov/recursion v0.0.0-00010101000000-000000000000
 	ex.sov/slisess v0.0.0-00010101000000-000000000000
 	ex.sov/sorting v0.0.0-00010101000000-000000000000
+	ex.sov/string-library v0.0.0-00010101000000-000000000000
 	ex.sov/switchsov v0.0.0-00010101000000-000000000000
 	ex.sov/values v0.0.0-00010101000000-000000000000
 	ex.sov/variables v0.0.0-00010101000000-000000000000
@@ -133,3 +135,7 @@ replace ex.sov/custom-sorting => ../custom-sorting
 replace ex.sov/expanic => ../expanic
 
 replace ex.sov/exdefer => ../exdefer
+
+replace ex.sov/exrecover => ../exrecover
+
+replace ex.sov/string-library => ../string-library
