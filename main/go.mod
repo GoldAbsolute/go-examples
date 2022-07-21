@@ -11,6 +11,7 @@ require (
 	ex.sov/constants v0.0.0-00010101000000-000000000000
 	ex.sov/custom-sorting v0.0.0-00010101000000-000000000000
 	ex.sov/embedding v0.0.0-00010101000000-000000000000
+	ex.sov/exbase64 v0.0.0-00010101000000-000000000000
 	ex.sov/exdefer v0.0.0-00010101000000-000000000000
 	ex.sov/exepoch v0.0.0-00010101000000-000000000000
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
@@ -175,3 +176,5 @@ replace ex.sov/number-parsing => ../number-parsing
 replace ex.sov/url-parsing => ../url-parsing
 
 replace ex.sov/exhashes => ../exhashes
+
+replace ex.sov/exbase64 => ../exbase64

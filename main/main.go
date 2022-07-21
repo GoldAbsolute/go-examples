@@ -7,6 +7,7 @@ import (
 	"ex.sov/constants"
 	custom_sorting "ex.sov/custom-sorting"
 	"ex.sov/embedding"
+	"ex.sov/exbase64"
 	"ex.sov/exdefer"
 	"ex.sov/exepoch"
 	"ex.sov/exerrors"
@@ -121,5 +122,6 @@ func main() {
 	number_parsing.Main()
 	url_parsing.Main()
 	exhashes.Main()
+	exbase64.Main()
 
 }
