@@ -16,6 +16,7 @@ require (
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
 	ex.sov/exfunctions v0.0.0-00010101000000-000000000000
 	ex.sov/exgenerics v0.0.0-00010101000000-000000000000
+	ex.sov/exhashes v0.0.0-00010101000000-000000000000
 	ex.sov/exjson v0.0.0-00010101000000-000000000000
 	ex.sov/exmethods v0.0.0-00010101000000-000000000000
 	ex.sov/exmutex v0.0.0-00010101000000-000000000000
@@ -34,6 +35,8 @@ require (
 	ex.sov/mapex v0.0.0-00010101000000-000000000000
 	ex.sov/multy v0.0.0-00010101000000-000000000000
 	ex.sov/nonblock v0.0.0-00010101000000-000000000000
+	ex.sov/number-parsing v0.0.0-00010101000000-000000000000
+	ex.sov/random-numbers v0.0.0-00010101000000-000000000000
 	ex.sov/rangeOverChannels v0.0.0-00010101000000-000000000000
 	ex.sov/recursion v0.0.0-00010101000000-000000000000
 	ex.sov/slisess v0.0.0-00010101000000-000000000000
@@ -42,6 +45,8 @@ require (
 	ex.sov/string-library v0.0.0-00010101000000-000000000000
 	ex.sov/switchsov v0.0.0-00010101000000-000000000000
 	ex.sov/text-templates v0.0.0-00010101000000-000000000000
+	ex.sov/time-parsing v0.0.0-00010101000000-000000000000
+	ex.sov/url-parsing v0.0.0-00010101000000-000000000000
 	ex.sov/values v0.0.0-00010101000000-000000000000
 	ex.sov/variables v0.0.0-00010101000000-000000000000
 	ex.sov/variadic v0.0.0-00010101000000-000000000000
@@ -160,3 +165,13 @@ replace ex.sov/exxml => ../exxml
 replace ex.sov/extime => ../extime
 
 replace ex.sov/exepoch => ../exepoch
+
+replace ex.sov/time-parsing => ../time-parsing
+
+replace ex.sov/random-numbers => ../random-numbers
+
+replace ex.sov/number-parsing => ../number-parsing
+
+replace ex.sov/url-parsing => ../url-parsing
+
+replace ex.sov/exhashes => ../exhashes

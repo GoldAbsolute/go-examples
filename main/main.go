@@ -12,6 +12,7 @@ import (
 	"ex.sov/exerrors"
 	"ex.sov/exfunctions"
 	"ex.sov/exgenerics"
+	"ex.sov/exhashes"
 	"ex.sov/exjson"
 	"ex.sov/exmethods"
 	"ex.sov/exmutex"
@@ -30,6 +31,8 @@ import (
 	"ex.sov/mapex"
 	"ex.sov/multy"
 	"ex.sov/nonblock"
+	number_parsing "ex.sov/number-parsing"
+	random_numbers "ex.sov/random-numbers"
 	"ex.sov/rangeOverChannels"
 	"ex.sov/recursion"
 	"ex.sov/slisess"
@@ -38,6 +41,8 @@ import (
 	string_library "ex.sov/string-library"
 	"ex.sov/switchsov"
 	text_templates "ex.sov/text-templates"
+	time_parsing "ex.sov/time-parsing"
+	url_parsing "ex.sov/url-parsing"
 	"ex.sov/values"
 	"ex.sov/variables"
 	"ex.sov/variadic"
@@ -111,5 +116,10 @@ func main() {
 	exxml.Main()
 	extime.Main()
 	exepoch.Main()
+	time_parsing.Main()
+	random_numbers.Main()
+	number_parsing.Main()
+	url_parsing.Main()
+	exhashes.Main()
 
 }
