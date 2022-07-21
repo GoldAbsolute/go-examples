@@ -15,6 +15,7 @@ require (
 	ex.sov/exbase64 v0.0.0-00010101000000-000000000000
 	ex.sov/exdefer v0.0.0-00010101000000-000000000000
 	ex.sov/exdir v0.0.0-00010101000000-000000000000
+	ex.sov/exdirectives v0.0.0-00010101000000-000000000000
 	ex.sov/exepoch v0.0.0-00010101000000-000000000000
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
 	ex.sov/exfunctions v0.0.0-00010101000000-000000000000
@@ -29,7 +30,6 @@ require (
 	ex.sov/exregular v0.0.0-00010101000000-000000000000
 	ex.sov/exrunes v0.0.0-00010101000000-000000000000
 	ex.sov/exstructs v0.0.0-00010101000000-000000000000
-	ex.sov/extemporary v0.0.0-00010101000000-000000000000
 	ex.sov/extime v0.0.0-00010101000000-000000000000
 	ex.sov/exxml v0.0.0-00010101000000-000000000000
 	ex.sov/file-paths v0.0.0-00010101000000-000000000000
@@ -195,3 +195,7 @@ replace ex.sov/file-paths => ../file-paths
 replace ex.sov/exdir => ../exdir
 
 replace ex.sov/extemporary => ../extemporary
+
+replace ex.sov/exdirectives => ../exdirectives
+
+replace ex.sov/extesting => ../extesting
