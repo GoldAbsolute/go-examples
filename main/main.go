@@ -6,6 +6,7 @@ import (
 	"ex.sov/closures"
 	"ex.sov/constants"
 	custom_sorting "ex.sov/custom-sorting"
+	ex_reading_files "ex.sov/e-r-f"
 	"ex.sov/embedding"
 	"ex.sov/exbase64"
 	"ex.sov/exdefer"
@@ -123,5 +124,6 @@ func main() {
 	url_parsing.Main()
 	exhashes.Main()
 	exbase64.Main()
+	ex_reading_files.Main()
 
 }

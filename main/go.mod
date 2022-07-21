@@ -10,6 +10,7 @@ require (
 	ex.sov/closures v0.0.0-00010101000000-000000000000
 	ex.sov/constants v0.0.0-00010101000000-000000000000
 	ex.sov/custom-sorting v0.0.0-00010101000000-000000000000
+	ex.sov/e-r-f v0.0.0-00010101000000-000000000000
 	ex.sov/embedding v0.0.0-00010101000000-000000000000
 	ex.sov/exbase64 v0.0.0-00010101000000-000000000000
 	ex.sov/exdefer v0.0.0-00010101000000-000000000000
@@ -178,3 +179,5 @@ replace ex.sov/url-parsing => ../url-parsing
 replace ex.sov/exhashes => ../exhashes
 
 replace ex.sov/exbase64 => ../exbase64
+
+replace ex.sov/e-r-f => ../ex-reading-files
