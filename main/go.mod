@@ -12,16 +12,21 @@ require (
 	ex.sov/custom-sorting v0.0.0-00010101000000-000000000000
 	ex.sov/embedding v0.0.0-00010101000000-000000000000
 	ex.sov/exdefer v0.0.0-00010101000000-000000000000
+	ex.sov/exepoch v0.0.0-00010101000000-000000000000
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
 	ex.sov/exfunctions v0.0.0-00010101000000-000000000000
 	ex.sov/exgenerics v0.0.0-00010101000000-000000000000
+	ex.sov/exjson v0.0.0-00010101000000-000000000000
 	ex.sov/exmethods v0.0.0-00010101000000-000000000000
 	ex.sov/exmutex v0.0.0-00010101000000-000000000000
 	ex.sov/expointers v0.0.0-00010101000000-000000000000
 	ex.sov/exrange v0.0.0-00010101000000-000000000000
 	ex.sov/exrecover v0.0.0-00010101000000-000000000000
+	ex.sov/exregular v0.0.0-00010101000000-000000000000
 	ex.sov/exrunes v0.0.0-00010101000000-000000000000
 	ex.sov/exstructs v0.0.0-00010101000000-000000000000
+	ex.sov/extime v0.0.0-00010101000000-000000000000
+	ex.sov/exxml v0.0.0-00010101000000-000000000000
 	ex.sov/forfor v0.0.0-00010101000000-000000000000
 	ex.sov/hello v0.0.0-00010101000000-000000000000
 	ex.sov/ifelse v0.0.0-00010101000000-000000000000
@@ -33,8 +38,10 @@ require (
 	ex.sov/recursion v0.0.0-00010101000000-000000000000
 	ex.sov/slisess v0.0.0-00010101000000-000000000000
 	ex.sov/sorting v0.0.0-00010101000000-000000000000
+	ex.sov/string-format v0.0.0-00010101000000-000000000000
 	ex.sov/string-library v0.0.0-00010101000000-000000000000
 	ex.sov/switchsov v0.0.0-00010101000000-000000000000
+	ex.sov/text-templates v0.0.0-00010101000000-000000000000
 	ex.sov/values v0.0.0-00010101000000-000000000000
 	ex.sov/variables v0.0.0-00010101000000-000000000000
 	ex.sov/variadic v0.0.0-00010101000000-000000000000
@@ -139,3 +146,17 @@ replace ex.sov/exdefer => ../exdefer
 replace ex.sov/exrecover => ../exrecover
 
 replace ex.sov/string-library => ../string-library
+
+replace ex.sov/string-format => ../string-format
+
+replace ex.sov/text-templates => ../text-templates
+
+replace ex.sov/exregular => ../exregular
+
+replace ex.sov/exjson => ../exjson
+
+replace ex.sov/exxml => ../exxml
+
+replace ex.sov/extime => ../extime
+
+replace ex.sov/exepoch => ../exepoch

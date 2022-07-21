@@ -8,16 +8,21 @@ import (
 	custom_sorting "ex.sov/custom-sorting"
 	"ex.sov/embedding"
 	"ex.sov/exdefer"
+	"ex.sov/exepoch"
 	"ex.sov/exerrors"
 	"ex.sov/exfunctions"
 	"ex.sov/exgenerics"
+	"ex.sov/exjson"
 	"ex.sov/exmethods"
 	"ex.sov/exmutex"
 	"ex.sov/expointers"
 	"ex.sov/exrange"
 	"ex.sov/exrecover"
+	"ex.sov/exregular"
 	"ex.sov/exrunes"
 	"ex.sov/exstructs"
+	"ex.sov/extime"
+	"ex.sov/exxml"
 	"ex.sov/forfor"
 	"ex.sov/hello"
 	"ex.sov/ifelse"
@@ -29,8 +34,10 @@ import (
 	"ex.sov/recursion"
 	"ex.sov/slisess"
 	"ex.sov/sorting"
+	string_format "ex.sov/string-format"
 	string_library "ex.sov/string-library"
 	"ex.sov/switchsov"
+	text_templates "ex.sov/text-templates"
 	"ex.sov/values"
 	"ex.sov/variables"
 	"ex.sov/variadic"
@@ -96,4 +103,13 @@ func main() {
 	exdefer.Main()
 	exrecover.Main()
 	string_library.Main()
+	string_format.Main()
+	text_templates.Main()
+	exregular.Main()
+	// Кто-то из двух ниже грузит(скорее второй)
+	exjson.Main()
+	exxml.Main()
+	extime.Main()
+	exepoch.Main()
+
 }
