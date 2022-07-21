@@ -48,6 +48,7 @@ import (
 	"ex.sov/values"
 	"ex.sov/variables"
 	"ex.sov/variadic"
+	writing_files "ex.sov/writing-files"
 	"fmt"
 )
 
@@ -125,5 +126,5 @@ func main() {
 	exhashes.Main()
 	exbase64.Main()
 	ex_reading_files.Main()
-
+	writing_files.Main()
 }

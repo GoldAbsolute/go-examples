@@ -52,6 +52,7 @@ require (
 	ex.sov/values v0.0.0-00010101000000-000000000000
 	ex.sov/variables v0.0.0-00010101000000-000000000000
 	ex.sov/variadic v0.0.0-00010101000000-000000000000
+	ex.sov/writing-files v0.0.0-00010101000000-000000000000
 )
 
 replace ex.sov/values => ../values
@@ -181,3 +182,5 @@ replace ex.sov/exhashes => ../exhashes
 replace ex.sov/exbase64 => ../exbase64
 
 replace ex.sov/e-r-f => ../ex-reading-files
+
+replace ex.sov/writing-files => ../writing-files
