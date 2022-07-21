@@ -30,6 +30,7 @@ require (
 	ex.sov/exstructs v0.0.0-00010101000000-000000000000
 	ex.sov/extime v0.0.0-00010101000000-000000000000
 	ex.sov/exxml v0.0.0-00010101000000-000000000000
+	ex.sov/file-paths v0.0.0-00010101000000-000000000000
 	ex.sov/forfor v0.0.0-00010101000000-000000000000
 	ex.sov/hello v0.0.0-00010101000000-000000000000
 	ex.sov/ifelse v0.0.0-00010101000000-000000000000
@@ -184,3 +185,7 @@ replace ex.sov/exbase64 => ../exbase64
 replace ex.sov/e-r-f => ../ex-reading-files
 
 replace ex.sov/writing-files => ../writing-files
+
+replace ex.sov/exfilters => ../exfilters
+
+replace ex.sov/file-paths => ../file-paths

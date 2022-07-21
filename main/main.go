@@ -26,6 +26,7 @@ import (
 	"ex.sov/exstructs"
 	"ex.sov/extime"
 	"ex.sov/exxml"
+	file_paths "ex.sov/file-paths"
 	"ex.sov/forfor"
 	"ex.sov/hello"
 	"ex.sov/ifelse"
@@ -127,4 +128,8 @@ func main() {
 	exbase64.Main()
 	ex_reading_files.Main()
 	writing_files.Main()
+	// Лайн Фильтр
+	//exfilters.Main()
+	file_paths.Main()
+
 }
