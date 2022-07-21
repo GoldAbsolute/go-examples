@@ -10,6 +10,7 @@ import (
 	"ex.sov/embedding"
 	"ex.sov/exbase64"
 	"ex.sov/exdefer"
+	"ex.sov/exdir"
 	"ex.sov/exepoch"
 	"ex.sov/exerrors"
 	"ex.sov/exfunctions"
@@ -24,6 +25,7 @@ import (
 	"ex.sov/exregular"
 	"ex.sov/exrunes"
 	"ex.sov/exstructs"
+	"ex.sov/extemporary"
 	"ex.sov/extime"
 	"ex.sov/exxml"
 	file_paths "ex.sov/file-paths"
@@ -131,5 +133,6 @@ func main() {
 	// Лайн Фильтр
 	//exfilters.Main()
 	file_paths.Main()
-
+	exdir.Main()
+	extemporary.Main()
 }
