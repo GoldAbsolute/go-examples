@@ -138,5 +138,13 @@ func main() {
 	//extemporary.Main()
 	// Это жестко, берет информацию из файла, embed
 	exdirectives.Main()
+	//go build ==> ./main a b c d
+	//command_line_args.Main()
+	//go run . -word=opt -numb=24 a b c ==>Флаги при запуске
+	//command_line_flags.Main()
+	//go run . foo ли bar
+	//command_line_sub.Main()
+	// еременные среды
+	//exenv.Main()
 
 }

@@ -16,6 +16,7 @@ require (
 	ex.sov/exdefer v0.0.0-00010101000000-000000000000
 	ex.sov/exdir v0.0.0-00010101000000-000000000000
 	ex.sov/exdirectives v0.0.0-00010101000000-000000000000
+	ex.sov/exenv v0.0.0-00010101000000-000000000000
 	ex.sov/exepoch v0.0.0-00010101000000-000000000000
 	ex.sov/exerrors v0.0.0-00010101000000-000000000000
 	ex.sov/exfunctions v0.0.0-00010101000000-000000000000
@@ -199,3 +200,11 @@ replace ex.sov/extemporary => ../extemporary
 replace ex.sov/exdirectives => ../exdirectives
 
 replace ex.sov/extesting => ../extesting
+
+replace ex.sov/command-line-args => ../command-line-args
+
+replace ex.sov/c-l-f => ../command-line-flags
+
+replace ex.sov/c-l-s => ../command-line-sub
+
+replace ex.sov/exenv => ../exenv
