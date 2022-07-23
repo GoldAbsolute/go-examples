@@ -8,7 +8,7 @@ import (
 func worker(id int, jobs <-chan int, results chan<- int) {
 	for j := range jobs {
 		fmt.Println("Worker", id, "start ", j, "job")
-		time.Sleep(1 * time.Second)
+		time.Sleep(500 * time.Millisecond)
 		fmt.Println("Worker", id, "end ", j, "job")
 		results <- j * 2
 
