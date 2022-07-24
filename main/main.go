@@ -89,7 +89,7 @@ func main() {
 	////command_line_flags.Main()
 	////go run . foo ли bar
 	////command_line_sub.Main()
-	//// еременные среды
+	//// Переменные среды
 	////exenv.Main()
 
 }
